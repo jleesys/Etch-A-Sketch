@@ -29,5 +29,12 @@ const initializeBoard = (userInput) => {
     boardView.setAttribute('style', 'width: ' + newDiv.style.width * userInput + 'px');
 }
 
+const getRandomColor = () => {
+    const colors = [red, orange, yellow, green, blue, purple, grey, white, black, brown,
+    CornflowerBlue, Cyan, DarkBlue, DarkCyan, Bisque, DeepPink, DodgerBlue, ForestGreen, GreenYellow];
+    const rand = Math.floor(Math.random() * 19);
+    return colors[rand];
+}
+
 
 initializeBoard(16);
