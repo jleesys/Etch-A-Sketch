@@ -7,6 +7,7 @@ let userInputDimension = 0;
 
 dimensionSetter.addEventListener('click', function getInput() {
     userInputDimension = textField.value;
+    if (userInputDimension > 100) {textField.value = "Too big! Try # below 100"; return}
     boardView.innerHTML = '';
     initializeBoard(userInputDimension);
 })
