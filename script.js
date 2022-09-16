@@ -21,7 +21,7 @@ const initializeBoard = (userInput) => {
         tempClass = 'block' + i;
         newDiv.classList.toggle(tempClass);
         newDiv.addEventListener('mouseover', function changeColor() {
-            newDiv.classList.toggle('active');
+            newDiv.classList.add('active');
         });
         newDiv.style.width = 800 / userInput + "px";
         newDiv.style.height = 800 / userInput + "px";
