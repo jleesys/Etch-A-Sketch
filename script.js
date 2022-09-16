@@ -35,8 +35,8 @@ const initializeBoard = (userInput) => {
 const getRandomColor = () => {
     const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'grey', 'white',
         'black', 'brown', 'CornflowerBlue', 'Cyan', 'DarkBlue', 'DarkCyan', 'Bisque', 'DeepPink',
-        'DodgerBlue', 'ForestGreen', 'GreenYellow'];
-    const rand = Math.floor(Math.random() * 19);
+        'DodgerBlue', 'ForestGreen', 'GreenYellow', 'pink'];
+    const rand = Math.floor(Math.random() * 20);
     console.log(colors[rand]);
     return colors[rand];
 }
