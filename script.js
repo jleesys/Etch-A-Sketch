@@ -24,7 +24,8 @@ const initializeBoard = (userInput) => {
         });
         boardView.appendChild(newDiv);
     }
+    boardView.setAttribute('style', 'width: ' + userInput * 200 + 'px');
 }
 
 
-initializeBoard(4);
+initializeBoard(9);
