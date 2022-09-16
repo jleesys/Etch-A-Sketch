@@ -26,7 +26,6 @@ const initializeBoard = (userInput) => {
         newDiv.style.height = 800 / userInput + "px";
         boardView.appendChild(newDiv);
     }
-    boardView.setAttribute('style', 'width: ' + newDiv.style.width * userInput + 'px');
 }
 
 
