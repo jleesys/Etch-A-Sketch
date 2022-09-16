@@ -1,2 +1,4 @@
 # Etch-A-Sketch
-TOP Project
+TOP Project 
+
+Creating Etch-A-Sketch webpage app.  
