@@ -1,0 +1,11 @@
+.board {
+    display: flex;
+    flex-flow: row;
+}
+
+div[class^="block"]{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 2px red solid;
+}
