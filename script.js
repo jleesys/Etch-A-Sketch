@@ -30,4 +30,4 @@ const initializeBoard = (userInput) => {
 }
 
 
-initializeBoard(4);
+initializeBoard(16);
