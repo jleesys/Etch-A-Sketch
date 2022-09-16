@@ -1,6 +1,7 @@
 .board {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
+    width: 1000px;
 }
 
 div[class^="block"]{
@@ -8,4 +9,5 @@ div[class^="block"]{
     height: 200px;
     background-color: blue;
     border: 2px red solid;
+    flex: 0 0 auto;
 }
