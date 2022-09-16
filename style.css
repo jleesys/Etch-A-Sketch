@@ -9,6 +9,7 @@
     flex-flow: row wrap;
     /* width: 1000px; */
     width: 800px;
+    height: 800px;
     margin: 0 auto;
     /* border: 5px purple solid; */
 }
