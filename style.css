@@ -12,3 +12,7 @@ div[class^="block"]{
     border: 2px red solid;
     flex: 0 0 auto;
 }
+
+div.active {
+    background-color: black;
+}
