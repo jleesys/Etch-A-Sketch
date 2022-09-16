@@ -7,6 +7,7 @@ let userInputDimension = 0;
 
 dimensionSetter.addEventListener('click', function getInput(){
     userInputDimension = textField.value;
+    initializeBoard(userInputDimension);
 })
 
 

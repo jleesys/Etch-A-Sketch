@@ -7,16 +7,19 @@
 .board {
     display: flex;
     flex-flow: row wrap;
-    width: 1000px;
+    /* width: 1000px; */
+    width: 800px;
     margin: 0 auto;
+    /* border: 5px purple solid; */
 }
 
 div[class^="block"]{
     width: 200px;
     height: 200px;
     background-color: blue;
-    border: 2px red solid;
-    flex: 0 0 auto;
+    /* border: 2px red solid; */
+    outline: white solid 1px;
+    flex-basis: 1 0 auto;
 }
 
 div.active {
