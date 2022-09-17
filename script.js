@@ -20,7 +20,7 @@ const initializeBoard = (userInput) => {
         const newDiv = document.createElement('div');
         tempClass = 'block' + i;
         newDiv.classList.toggle(tempClass);
-        newDiv.addEventListener('mouseover', function changeColor() {
+        newDiv.addEventListener('mouseenter', function changeColor() {
             // newDiv.classList.toggle('active');
             console.log('recoloring');
             let newColor = getRandomColor();
